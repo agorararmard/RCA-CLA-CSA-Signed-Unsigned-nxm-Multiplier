@@ -1,0 +1,84 @@
+Longest Path Summary:
+Path input pin a to output pin s delay 224.883 ps
+
+Design Summary:
+
+18. Printing statistics.
+
+=== $paramod\RCA\n=7 ===
+
+   Number of wires:                  6
+   Number of wire bits:             31
+   Number of public wires:           6
+   Number of public wire bits:      31
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                  7
+     FA                              7
+
+   Area for cell type \FA is unknown!
+
+=== FA ===
+
+   Number of wires:                 12
+   Number of wire bits:             12
+   Number of public wires:           5
+   Number of public wire bits:       5
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                  9
+     AND2X2                          1
+     AOI21X1                         1
+     INVX1                           1
+     NAND2X1                         2
+     NAND3X1                         1
+     NOR2X1                          1
+     OAI21X1                         1
+     OR2X2                           1
+
+   Chip area for this module: 243.000000
+
+=== UnsignedMultiplier ===
+
+   Number of wires:                 11
+   Number of wire bits:             69
+   Number of public wires:          11
+   Number of public wire bits:      69
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 19
+     $paramod\RCA\n=7                3
+     AND2X2                         16
+
+   Area for cell type $paramod\RCA\n=7 is unknown!
+
+   Chip area for this module: 512.000000
+
+=== design hierarchy ===
+
+   UnsignedMultiplier                1
+     $paramod\RCA\n=7                3
+       FA                            7
+
+   Number of wires:                281
+   Number of wire bits:            414
+   Number of public wires:         134
+   Number of public wire bits:     267
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                205
+     AND2X2                         37
+     AOI21X1                        21
+     INVX1                          21
+     NAND2X1                        42
+     NAND3X1                        21
+     NOR2X1                         21
+     OAI21X1                        21
+     OR2X2                          21
+
+   Chip area for this module: 5615.000000
+

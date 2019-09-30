@@ -1,0 +1,72 @@
+Longest Path Summary:
+Path input pin ci to output pin co delay 714.043 ps
+
+Design Summary:
+
+17. Printing statistics.
+
+=== CLA ===
+
+   Number of wires:                 37
+   Number of wire bits:             46
+   Number of public wires:           7
+   Number of public wire bits:      16
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 37
+     AND2X2                          3
+     INVX1                           2
+     NAND2X1                        10
+     NAND3X1                         7
+     NOR2X1                          1
+     OAI21X1                         8
+     OR2X2                           4
+     XOR2X1                          2
+
+   Chip area for this module: 1068.000000
+
+=== CLA2Lvl ===
+
+   Number of wires:                 14
+   Number of wire bits:             69
+   Number of public wires:           8
+   Number of public wire bits:      63
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 14
+     AOI21X1                         2
+     CLA                             4
+     INVX1                           6
+     OAI21X1                         2
+
+   Area for cell type \CLA is unknown!
+
+   Chip area for this module: 206.000000
+
+=== design hierarchy ===
+
+   CLA2Lvl                           1
+     CLA                             4
+
+   Number of wires:                162
+   Number of wire bits:            253
+   Number of public wires:          36
+   Number of public wire bits:     127
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                158
+     AND2X2                         12
+     AOI21X1                         2
+     INVX1                          14
+     NAND2X1                        40
+     NAND3X1                        28
+     NOR2X1                          4
+     OAI21X1                        34
+     OR2X2                          16
+     XOR2X1                          8
+
+   Chip area for this module: 4478.000000
+

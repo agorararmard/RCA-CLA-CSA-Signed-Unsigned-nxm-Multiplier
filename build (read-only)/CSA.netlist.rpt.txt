@@ -1,0 +1,119 @@
+Longest Path Summary:
+Path input pin a to output pin Out[1] delay 314.434 ps
+
+Design Summary:
+
+16. Printing statistics.
+
+=== $paramod\MUX\n=1 ===
+
+   Number of wires:                  6
+   Number of wire bits:              6
+   Number of public wires:           4
+   Number of public wire bits:       4
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                  3
+     INVX1                           1
+     NAND2X1                         1
+     OAI21X1                         1
+
+   Chip area for this module: 63.000000
+
+=== $paramod\MUX\n=4 ===
+
+   Number of wires:                 12
+   Number of wire bits:             21
+   Number of public wires:           4
+   Number of public wire bits:      13
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 12
+     INVX1                           4
+     NAND2X1                         4
+     OAI21X1                         4
+
+   Chip area for this module: 252.000000
+
+=== $paramod\RCA\n=4 ===
+
+   Number of wires:                  6
+   Number of wire bits:             19
+   Number of public wires:           6
+   Number of public wire bits:      19
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                  4
+     FA                              4
+
+   Area for cell type \FA is unknown!
+
+=== CSA ===
+
+   Number of wires:                  9
+   Number of wire bits:             81
+   Number of public wires:           9
+   Number of public wire bits:      81
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 13
+     $paramod\MUX\n=1                3
+     $paramod\MUX\n=4                3
+     $paramod\RCA\n=4                7
+
+   Area for cell type $paramod\MUX\n=1 is unknown!
+   Area for cell type $paramod\MUX\n=4 is unknown!
+   Area for cell type $paramod\RCA\n=4 is unknown!
+
+=== FA ===
+
+   Number of wires:                 12
+   Number of wire bits:             12
+   Number of public wires:           5
+   Number of public wire bits:       5
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                  9
+     AND2X2                          1
+     AOI21X1                         1
+     INVX1                           1
+     NAND2X1                         2
+     NAND3X1                         1
+     NOR2X1                          1
+     OAI21X1                         1
+     OR2X2                           1
+
+   Chip area for this module: 243.000000
+
+=== design hierarchy ===
+
+   CSA                               1
+     $paramod\MUX\n=1                3
+     $paramod\MUX\n=4                3
+     $paramod\RCA\n=4                7
+       FA                            4
+
+   Number of wires:                441
+   Number of wire bits:            631
+   Number of public wires:         215
+   Number of public wire bits:     405
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                297
+     AND2X2                         28
+     AOI21X1                        28
+     INVX1                          43
+     NAND2X1                        71
+     NAND3X1                        28
+     NOR2X1                         28
+     OAI21X1                        43
+     OR2X2                          28
+
+   Chip area for this module: 7749.000000
+

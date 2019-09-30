@@ -1,0 +1,66 @@
+Longest Path Summary:
+Path input pin a to output pin s delay 224.883 ps
+
+Design Summary:
+
+13. Printing statistics.
+
+=== FA ===
+
+   Number of wires:                 12
+   Number of wire bits:             12
+   Number of public wires:           5
+   Number of public wire bits:       5
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                  9
+     AND2X2                          1
+     AOI21X1                         1
+     INVX1                           1
+     NAND2X1                         2
+     NAND3X1                         1
+     NOR2X1                          1
+     OAI21X1                         1
+     OR2X2                           1
+
+   Chip area for this module: 243.000000
+
+=== RCA ===
+
+   Number of wires:                  6
+   Number of wire bits:             19
+   Number of public wires:           6
+   Number of public wire bits:      19
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                  4
+     FA                              4
+
+   Area for cell type \FA is unknown!
+
+=== design hierarchy ===
+
+   RCA                               1
+     FA                              4
+
+   Number of wires:                 54
+   Number of wire bits:             67
+   Number of public wires:          26
+   Number of public wire bits:      39
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 36
+     AND2X2                          4
+     AOI21X1                         4
+     INVX1                           4
+     NAND2X1                         8
+     NAND3X1                         4
+     NOR2X1                          4
+     OAI21X1                         4
+     OR2X2                           4
+
+   Chip area for this module: 972.000000
+
